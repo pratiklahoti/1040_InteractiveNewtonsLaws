@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Interactive Newtons Laws</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_law1">What\'s the first law?</string>
+    <string name="str_law2">What\'s the second law?</string>
+    <string name="str_law3">What\'s the third law?</string>
+    <string name="str_see_in_action">See the law in action!</string>
+    <string name="title_activity_display_law">Law Description</string>
+    <string name="title_activity_law__animation">In action!</string>
+    <string name="blank" />
+    <string name="title_activity_second__animation">Second law in action!</string>
+    <string name="continue_string">Click to Continue</string>
+    <string name="title_activity_second_animation_continued">Second Animation Continued...</string>
+    <string name="title_activity_third_animation">ThirdAnimation</string>
+    <string name="home_string">Home</string>
+    <string name="exit_string">Exit</string>
+
+    <color name="White">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <string name="title_activity_law_display">Description of the law</string>
+    
+    <color name="dark_green">#006600</color>
+
+</resources>

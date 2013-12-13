@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/solid_black"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button_law_action"
+        style="@id/button_law_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="61dp"
+        android:background="@color/White"
+        android:onClick="sendMessage"
+        android:text="@string/str_law1"
+        android:textColor="@color/black"
+        android:width="@dimen/ButtonWidth" />
+
+    <Button
+        android:id="@+id/button_law2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_law_action"
+        android:layout_below="@+id/button_law_action"
+        android:layout_marginTop="43dp"
+        android:background="@color/White"
+        android:text="@string/str_law2"
+        android:width="@dimen/ButtonWidth" />
+
+    <Button
+        android:id="@+id/button_law3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_law2"
+        android:layout_below="@+id/button_law2"
+        android:layout_marginTop="45dp"
+        android:background="@color/White"
+        android:text="@string/str_law3"
+        android:width="@dimen/ButtonWidth" />
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="80sp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_law3"
+        android:layout_below="@+id/button_law3"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/White"
+        android:text="@string/exit_string" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_exit"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/button_law_action"
+        android:src="@drawable/newton" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="180sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_law3"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/newton1" />
+
+</RelativeLayout>
